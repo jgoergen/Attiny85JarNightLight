@@ -10,11 +10,11 @@
 // SETTINGS ////////
 int maxLoopDelay = 40;
 int minLoopDelay = 4;
-int maxPWMFreq = 130;
-int minPWMFreq = 0;
+int maxPWMFreq = 255;
+int minPWMFreq = 100;
 int maxWaitBetweenLEDS = 6000;
 int maxLightsAtATime = 1;
-int minLightBeforeShutoff = 300; // out of 1024, point at which the light turns off
+int minLightBeforeShutoff = 40; // out of 1024, beyond this point the light turns off
 //////////////////////
 
 int pwmFreq = 123;
