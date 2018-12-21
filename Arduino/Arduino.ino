@@ -6,10 +6,10 @@
 
 // PINS ////////////////////////////////////////////////////////////////////
 
-#define LATCH_PIN               3 // 74HC595 - ST_CP / 12
-#define DATA_PIN                1 // 74HC595 - DS / 14
-#define CLOCK_PIN               2 // 74HC595 - SH_CP / 11
-#define OUTPUT_ENABLE_PIN       0 // 74HC595 - OE / 13
+#define LATCH_PIN               3 // ATTINY85 pin 2 / 74HC595 pin 12 (ST_CP)
+#define DATA_PIN                1 // ATTINY85 pin 6 / 74HC595 pin 14 (DS)
+#define CLOCK_PIN               2 // ATTINY85 pin 7 / 74HC595 pin 11 (SH_CP)
+#define OUTPUT_ENABLE_PIN       0 // ATTINY85 pin 5 / 74HC595 pin 13 (OE)
 #define LIGHT_DETECTOR_PIN      A2 // light detecting resistor to positive pin on attiny85 ( neesd a resistor from ground to A2 as well. )
 
 // SETTINGS ////////////////////////////////////////////////////////////////
