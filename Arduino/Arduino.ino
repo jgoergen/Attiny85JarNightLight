@@ -93,7 +93,7 @@ void updatePWM() {
 void changeLED() {
   
   lightCount = random(MAX_LIGHTS_AT_A_TIME) + 1;
-  currentLEDS = 0b00000000;
+  currentLEDS = 0b11111111; //0b00000000;
   
   for (int i = 0; i < lightCount; i++)
     currentLEDS = currentLEDS | 1 << random(LIGHT_COUNT);
